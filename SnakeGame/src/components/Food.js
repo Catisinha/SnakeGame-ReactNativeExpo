@@ -22,7 +22,7 @@ const foodemojis = [
   ];
 
 const Food = ({ coords, top }) => {
-    const randDomFood = foodemojis[Math.floor(Math.random() * foodemojis)];
+    const randDomFood = foodemojis[Math.floor(Math.random() * foodemojis.length)];
     const foodStyle = {
         width: PIXEL,
         height: PIXEL,
